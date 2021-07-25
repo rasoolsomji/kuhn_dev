@@ -141,13 +141,16 @@ export default function Home() {
         </Section>
       </main>
 
-      <footer className="flex items-center justify-center w-full h-24 border-t px-8">
+      <footer className="flex flex-wrap items-center justify-center w-full h-24 border-t px-8">
         <a
-          className="flex items-center justify-center"
-          href="/"
+          className="hover:underline text-center"
+          href="#"
         >
-          Fabio Kuhn - Software and Project Development
+          Congratulations! You reached the end.
+          <br/>
+          Back to the top?
         </a>
+        <small className='w-full text-center'>Ps. This website has no cookies and no JS tracking</small>
       </footer>
     </div>
   )
