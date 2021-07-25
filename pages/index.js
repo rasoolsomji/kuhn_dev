@@ -51,7 +51,7 @@ export default function Home() {
             <p className='p-2'><span class='font-bold'>Web hosting:</span> Heroku, AWS (S3, Cloudfront, etc), CI process setup, Monitoring, Sendgrid, etc</p>
             <p className='p-2'><span class='font-bold'>Libraries, Frameworks and Tools:</span> Core Ruby on Rails, Rspec, Cucumber, Git, Sidekiq, and many more</p>
             <p className='p-2'><span class='font-bold'>Methodologies:</span> ShapeUp, Scrum, Kanban, Scrumban, TDD, BDD, Post-Mortems, Retrospetives</p>
-            <p className='p-2'><span class='font-bold'>Project development:</span> ODI and Jobs to be done, Prototyping, User stories, Lean and MVP, Design Sprints</p>
+            <p className='p-2'><span class='font-bold'>Project development:</span> ODI and Jobs to be done, Prototyping, User stories, Lean and MVP, Design Sprints, Start-Up and Big enterprise experiance</p>
             <p className='p-2'><span class='font-bold'>Team lead:</span> Coaching, Hiring, 1on1s, Performance reviews, Managing a fully remote team</p>
           </div>
         </Section>
@@ -131,10 +131,12 @@ export default function Home() {
 
         <Section title='Contact' className='bg-grey-light w-full'>
           <p className='pb-3'>
-            <span className='p-4 block'>Interested in having a conversation?<br/>Send me an email to</span>
+            <span className='p-4 mb-3 block'>Interested in having a conversation?<br/>Send me an email to</span>
             <code className="p-3 font-mono text-lg bg-hunterGreen-light rounded-md text-black">
               fabio@kuhn.dev
             </code>
+            <br/>
+            <a className='block my-5 hover:underline' rel='noopener noreferrer nofollow' target='_blank' href='https://www.linkedin.com/in/fabio-kuhn-647173a2/'> or check my LinkedIn Profile</a>
           </p>
         </Section>
       </main>
