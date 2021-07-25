@@ -46,13 +46,13 @@ export default function Home() {
               It's hard to list all the skills and things I do or did over the years. I selected some of the more important and interesting skills that I have real professional experiance with.
             </p>
 
-            <p className='p-2'><span class='font-bold'>Back-end development:</span> Ruby on Rails, NodeJS, Java, Redis, Postgresql, MySQL</p>
-            <p className='p-2'><span class='font-bold'>Front-end development:</span> HTML (Slim, Haml), CSS (SCSS, Bootstrap, TailwindCSS), JavaScript (StimulusJS), Git, SEO, accessibility</p>
+            <p className='p-2'><span class='font-bold'>Back-end development:</span> Ruby on Rails, NodeJS, Java, Redis, Postgresql, MySQL, GraphQL, API design, Caching</p>
+            <p className='p-2'><span class='font-bold'>Front-end development:</span> HTML (Slim, Haml), CSS (SCSS, Bootstrap, TailwindCSS), JavaScript (StimulusJS), Git, SEO, accessibility, responsive web design</p>
             <p className='p-2'><span class='font-bold'>Web hosting:</span> Heroku, AWS (S3, Cloudfront, etc), CI process setup, Monitoring, Sendgrid, etc</p>
             <p className='p-2'><span class='font-bold'>Libraries, Frameworks and Tools:</span> Core Ruby on Rails, Rspec, Cucumber, Git, Sidekiq, and many more</p>
             <p className='p-2'><span class='font-bold'>Methodologies:</span> ShapeUp, Scrum, Kanban, Scrumban, TDD, BDD, Post-Mortems, Retrospetives</p>
             <p className='p-2'><span class='font-bold'>Project development:</span> ODI and Jobs to be done, Prototyping, User stories, Lean and MVP, Design Sprints</p>
-            <p className='p-2'><span class='font-bold'>Team lead:</span> Coaching, Hiring, 1on1s, Performance reviews</p>
+            <p className='p-2'><span class='font-bold'>Team lead:</span> Coaching, Hiring, 1on1s, Performance reviews, Managing a fully remote team</p>
           </div>
         </Section>
         <Section title='Some of the projects I worked on' className='bg-grey-light w-full'>
@@ -94,6 +94,7 @@ export default function Home() {
                   <li>Evaluation of technologies</li>
                   <li>Technical consultancy with clients</li>
                   <li>Testing and quality control</li>
+                  <li>Bridge a fully remote team in a hybrid environment</li>
                 </ul>
               </p>
             </Work>
