@@ -37,13 +37,13 @@ export default function Home() {
           <p className='text-lg'>
             Hi, I'm Fabio, a passionate full stack software developer with a wide range of professional experiences and skills.
             <br/>
-            I've been working in the Software and digital Product development since over 15 years.
+            I've been working in the Software and digital Product industry since more than 15 years.
           </p>
         </Section>
         <Section title='My skillset'>
           <div className='text-left lg:w-1/2 mx-auto'>
             <p className='text-lg pb-8'>
-              It's hard to list all the skills and things I do or did over the years. I selected some of the more important and interesting skills that I have real professional experiance with.
+              It's hard to list all the skills and things I do or did over the past years. I selected some of the more important and interesting skills for which I have real professional experiance with.
             </p>
 
             <p className='p-2'><span class='font-bold'>Back-end development:</span> Ruby on Rails, NodeJS, Java, Redis, Postgresql, MySQL, GraphQL, API design, Caching</p>
