@@ -21,12 +21,12 @@ export default function Home() {
             className = 'rounded-full'
           />
         </div>
-        <div className='lg:ml-8 '>
+        <div className='text-center md:text-left lg:ml-8 '>
           <h1 className="text-6xl font-bold tracking-widest">
             <div className=''>Fabio Kuhn</div>
           </h1>
           <p className="mt-3 text-2xl">
-            <code className="p-3 font-mono text-lg  bg-hunterGreen-light rounded-md text-black">
+            <code className="block md:inline p-3 font-mono text-lg bg-hunterGreen-light md:rounded-md text-black">
             Software and Project Development
             </code>
           </p>
@@ -69,7 +69,7 @@ export default function Home() {
             <Work company='Algrano' title='Principal & Lead Engineer' date='2014 - now' img='images/algrano.jpg'>
               algrano is the first online community of coffee growers and roasters.
 
-              <p className='pt-8'>
+              <p className='pt-8 text-left'>
                 <span className='font-bold'>My Role</span>
 
                 <ul className='ml-4 list-disc'>
@@ -85,7 +85,7 @@ export default function Home() {
               Simplificator AG is a Swiss software agency and consultancy located in Zürich.<br/>
               Although it was one of the first full Ruby on Rails company in Switzerland it uses now different technologies to solve client needs in the most optimal way.
 
-              <p className='pt-8'>
+              <p className='pt-8 text-left'>
                 <span className='font-bold'>My Role</span>
 
                 <ul className='ml-4 list-disc'>
@@ -99,7 +99,7 @@ export default function Home() {
             </Work>
             <Work company='WhinyByte' title='CEO and Software Engineer' date='2009 - 2014' img='images/whinybyte.jpg'>
               whinybyte was a small startup located in Basel. We built small customized websites for clients, consulted and worked on Ruby on Rails projects in need and developed our own projects like fahrschule.ch.
-              <p className='pt-8'>
+              <p className='pt-8 text-left'>
                 <span className='font-bold'>My Role</span>
 
                 <ul className='ml-4 list-disc'>
@@ -113,7 +113,7 @@ export default function Home() {
             </Work>
             <Work company='Coop' title='Software Developer' date='2004 - 2009' img='images/coop.jpg'>
               Coop is the second biggest retailer in Switzerland. I started my appreniceship there at age 17 and worked in different fields. First in first level IT support where I learned communication skills, then from building websites with Java up to low-level programming for internal transaction processing with ABAP.
-              <p className='pt-8'>
+              <p className='pt-8 text-left'>
                 <span className='font-bold'>My Role</span>
 
                 <ul className='ml-4 list-disc'>
@@ -138,7 +138,7 @@ export default function Home() {
         </Section>
       </main>
 
-      <footer className="flex items-center justify-center w-full h-24 border-t">
+      <footer className="flex items-center justify-center w-full h-24 border-t px-8">
         <a
           className="flex items-center justify-center"
           href="/"
