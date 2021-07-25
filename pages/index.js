@@ -33,7 +33,7 @@ export default function Home() {
         </div>
       </header>
       <main className="flex flex-col items-center justify-center w-full flex-1 text-center">
-        <Section title='About me' className='bg-grey-light w-full'>
+        <Section title='About me' className='bg-grey-light'>
           <p className='text-lg'>
             Hi, I'm Fabio, a passionate full stack software developer with a wide range of professional experiences and skills.
             <br/>
@@ -41,7 +41,7 @@ export default function Home() {
           </p>
         </Section>
         <Section title='My skillset'>
-          <div className='text-left lg:w-1/2 mx-auto'>
+          <div className='text-left lg:w-2/3 mx-auto'>
             <p className='text-lg pb-8'>
               It's hard to list all the skills and things I do or did over the past years. I selected some of the more important and interesting skills for which I have real professional experiance with.
             </p>
@@ -55,7 +55,7 @@ export default function Home() {
             <p className='p-2'><span class='font-bold'>Team lead:</span> Coaching, Hiring, 1on1s, Performance reviews, Managing a fully remote team</p>
           </div>
         </Section>
-        <Section title='Some of the projects I worked on' className='bg-grey-light w-full'>
+        <Section title='Some of the projects I worked on' className='bg-grey-light'>
           <div className='w-full sm:w-3/4 lg:w-full mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 pt-12'>
             <Project title='Giving Multiplier' img='/images/giving_multiplier.png' href='https://givingmultiplier.org'> Want to give more effectively but don't want to give up your favorite charity? Evidence based research suggests: do both! Divide your donation between your favorite charity and a highly effective charity recommended by experts.</Project>
             <Project title='Algrano' img='/images/algrano.png' href='https://www.algrano.com/en'>Algrano is a Swiss tech startup that changes the global trade of coffee. Using technology, Algrano has set an ambitious goal to revolutionise the centuries old coffee trade industry and make it more transparent. Through the Algrano online platform, coffee growers promote and sell their coffees straight to roasters in Europe</Project>
@@ -72,7 +72,7 @@ export default function Home() {
               <p className='pt-8 text-left'>
                 <span className='font-bold'>My Role</span>
 
-                <ul className='ml-4 list-disc'>
+                <ul className='ml-8 list-disc'>
                   <li>Full-stack development with Ruby on Rails, JavaScript</li>
                   <li>Participate in the product development planning </li>
                   <li>Evaluation and maintenance of technologies</li>
@@ -88,7 +88,7 @@ export default function Home() {
               <p className='pt-8 text-left'>
                 <span className='font-bold'>My Role</span>
 
-                <ul className='ml-4 list-disc'>
+                <ul className='ml-8 list-disc'>
                   <li>Software Engineering - mainly with Ruby on Rails, RubyMotion, iOS and JavaScript</li>
                   <li>Specification and analysis of projects</li>
                   <li>Evaluation of technologies</li>
@@ -103,7 +103,7 @@ export default function Home() {
               <p className='pt-8 text-left'>
                 <span className='font-bold'>My Role</span>
 
-                <ul className='ml-4 list-disc'>
+                <ul className='ml-8 list-disc'>
                   <li>Software Engineering - mainly with Ruby on Rails and JavaScript</li>
                   <li>Specification and analysis of projects</li>
                   <li>Web design, SEO and front-end development</li>
@@ -117,7 +117,7 @@ export default function Home() {
               <p className='pt-8 text-left'>
                 <span className='font-bold'>My Role</span>
 
-                <ul className='ml-4 list-disc'>
+                <ul className='ml-8 list-disc'>
                   <li>Internal first-level IT-Support</li>
                   <li>Java web evelopment</li>
                   <li>Web design for promotional pages</li>

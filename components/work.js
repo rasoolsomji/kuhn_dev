@@ -17,7 +17,7 @@ export default function Work(props) {
 
         <div class="mt-1 flex">
           <i class="bx bxs-right-arrow text-primary hidden md:block"></i>
-          <div class="md:pl-14 md:-mt-1">
+          <div class="md:pl-20 md:-mt-1">
             <span class="font-body font-bold text-hunterGreen-dark block">{props.date}</span>
             <span class="font-header font-bold text-xl text-primary uppercase block pt-2">{props.title}</span>
             <div class="pt-2">
