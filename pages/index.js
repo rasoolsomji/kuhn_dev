@@ -8,40 +8,63 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen ">
       <Head>
-        <title>Fabio Kuhn - Software and Project Development</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Kuhn.dev - Software and Project Development - Fabio Kuhn</title>
+        <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png"/>
+        <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png"/>
+        <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-icon-72x72.png"/>
+        <link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-icon-76x76.png"/>
+        <link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-icon-114x114.png"/>
+        <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-icon-120x120.png"/>
+        <link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-icon-144x144.png"/>
+        <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-icon-152x152.png"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-icon-180x180.png"/>
+        <link rel="icon" type="image/png" sizes="192x192"  href="/icons/android-icon-192x192.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png"/>
+        <meta name="msapplication-TileColor" content="#ffffff"/>
+        <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png"/>
+        <meta name="theme-color" content="#ffffff"/>
       </Head>
-      <header className="py-12 flex flex-col lg:flex-row justify-center items-center w-full bg-hunterGreen-dark text-white">
-        <div className='w-48 h-48 rounded-full border-8 shadow-xl relative border-hunterGreen-light'>
+      <header className="py-12 flex flex-col lg:flex-row justify-center items-center w-full bg-white text-gray-800">
+        <div className='w-48 h-48'>
           <img
-            src="/images/fabiokuhn.jpg"
+            src="/images/kuhn logo.svg"
             alt="Fabio Kuhn"
             objectFit="cover"
             layout="fill"
             className = 'rounded-full'
           />
         </div>
-        <div className='text-center md:text-left lg:ml-8 '>
+        <div className='text-center md:text-left lg:ml-8 flex flex-col'>
           <h1 className="text-6xl font-bold tracking-widest">
-            <div className=''>Fabio Kuhn</div>
+            <div className='text-blue'>KUHN.DEV</div>
           </h1>
-          <p className="mt-3 text-2xl">
-            <code className="block md:inline p-3 font-mono text-lg bg-hunterGreen-light md:rounded-md text-black">
-            Software and Project Development
-            </code>
+          <p className="text-xl tracking-widest text-justify block uppercase md:inline text-lg md:rounded-md text-red justify-last">
+            Effective digital solutions
           </p>
         </div>
       </header>
       <main className="flex flex-col items-center justify-center w-full flex-1 text-center">
         <Section title='About me' className='bg-grey-light'>
-          <p className='text-lg'>
+          <div className='mb-12 mx-auto w-48 h-48 rounded-full border-8 shadow-xl relative border-blue'>
+            <img
+              src="/images/fabiokuhn.jpg"
+              alt="Fabio Kuhn"
+              objectFit="cover"
+              layout="fill"
+              className = 'rounded-full'
+            />
+          </div>
+          <p className='text-lg text-left'>
             Hi, I'm Fabio, a passionate full stack software developer with a wide range of professional experiences and skills.
+            I've been working in the Software and digital Product industry for more than 15 years.
             <br/>
-            I've been working in the Software and digital Product industry since more than 15 years.
+            I'm currently looking into using my skills and talent to have a bigger impact on the world by working on projects in the area of Effective Altruism.
           </p>
         </Section>
         <Section title='My skillset'>
-          <div className='text-left lg:w-2/3 mx-auto'>
+          <div className='text-left mx-auto'>
             <p className='text-lg pb-8'>
               It's hard to list all the skills and things I do or did over the past years. I selected some of the more important and interesting skills for which I have real professional experiance with.
             </p>
@@ -66,7 +89,24 @@ export default function Home() {
 
         <Section title='My work experience'>
           <WorkList className='w-full'>
-            <Work company='Algrano' title='Principal & Lead Engineer' date='2014 - now' img='images/algrano.jpg'>
+            <Work company='kuhn.dev' title='Full-Stack Engineer & Consultant' date='2021 - now' img='images/kuhn.png'>
+              Self-employed and working as a contractor on various projects in the field of <a rel='noopener noreferrer nofollow' target='_blank' href='https://www.effectivealtruism.org/'>Effective Altrusim</a>.
+              Some of my clients
+              <ul className='ml-8 list-disc'>
+                <li><a rel='noopener noreferrer nofollow' target='_blank' href='https://funds.effectivealtruism.org/'>EA Funds</a></li>
+                <li><a rel='noopener noreferrer nofollow' target='_blank' href='https://givingmultiplier.org/'>Giving Multiplier</a></li>
+              </ul>
+              <p className='pt-8 text-left'>
+                <span className='font-bold'>My Role</span>
+
+                <ul className='ml-8 list-disc'>
+                  <li>Full-stack development with RoR, Next.js, GraphQL, Postgresql</li>
+                  <li>Participate in the product development planning</li>
+                  <li>Evaluation and maintenance of technologies</li>
+                </ul>
+              </p>
+            </Work>
+            <Work company='Algrano' title='Principal & Lead Engineer' date='2014 - 2021' img='images/algrano.jpg'>
               algrano is the first online community of coffee growers and roasters.
 
               <p className='pt-8 text-left'>
@@ -132,7 +172,7 @@ export default function Home() {
         <Section title='Contact' className='bg-grey-light w-full'>
           <p className='pb-3'>
             <span className='p-4 mb-3 block'>Interested in having a conversation?<br/>Send me an email to</span>
-            <code className="p-3 font-mono text-lg bg-hunterGreen-light rounded-md text-black">
+            <code className="p-3 font-mono text-lg bg-green-light rounded-md text-black">
               fabio@kuhn.dev
             </code>
             <br/>
@@ -150,7 +190,7 @@ export default function Home() {
           <br/>
           Back to the top?
         </a>
-        <small className='w-full text-center'>Ps. This website has no cookies and no JS tracking</small>
+        <small className='w-full text-center'>Note: This website has no cookies and no JS tracking</small>
       </footer>
     </div>
   )

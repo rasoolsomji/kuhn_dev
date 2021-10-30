@@ -3,25 +3,34 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    container: {
+      center: true,
+    },
     extend: {
+      fontFamily: {
+        sans: ['Ubuntu', 'Helvetica', 'Arial', 'sans-serif']
+      },
       colors: {
-        hunterGreen: {
-          light: '#71AD94',
-          DEFAULT: '#386150',
-          dark: '#345B4B'
+        blue: {
+          light: '#84ABE4',
+          DEFAULT: '#4D75AF',
+          dark: '#24508F'
         },
-        almond: {
-          DEFAULT: '#DCCCBB'
+        red: {
+          light: '#EBBEB7',
+          DEFAULT: '#F06057',
+          dark: '#A0403A'
+        },
+        green: {
+          light: '#97C6C0',
+          DEFAULT: '#7DBFB6',
+          dark: '#406F68'
         },
         grey: {
-          light: '#F3F5F6',
-          DEFAULT: '#8D98A7'
-        },
-        sunray: {
-          DEFAULT: '#EAB464'
-        },
-        cafe: {
-          DEFAULT: '#A7754D'
+          light: '#E2E3E7',
+          DEFAULT: '#7E8F98',
+          dark: '#5A6369',
+          darkest: '#3E474B'
         }
       }
     },

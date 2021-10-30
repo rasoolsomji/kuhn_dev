@@ -7,18 +7,18 @@ export default function Work(props) {
           <img src={props.img} class="w-32 h-auto" alt={props.company} />
         </span>
         <div class="relative w-full ml-3 hidden md:block">
-          <span class="h-0.5 bg-hunterGreen-light absolute inset-x-0 top-1/2 transform -translate-y-1/2"></span>
+          <span class="h-0.5 bg-green-light absolute inset-x-0 top-1/2 transform -translate-y-1/2"></span>
         </div>
       </div>
     </div>
-    <div class="md:w-2/3">
-      <div class="flex md:pl-18 relative">
-        <span class="border-2 border-hunterGreen-dark rounded-full w-4 h-4 absolute left-8 top-1 bg-white hidden md:block"></span>
+    <div class="md:w-2/3 w-full">
+      <div class="md:pl-18 relative">
+        <span class="border-2 border-green-dark rounded-full w-4 h-4 absolute left-8 top-2 bg-white hidden md:block"></span>
 
-        <div class="mt-1 flex">
+        <div class="flex mt-1 w-full">
           <i class="bx bxs-right-arrow text-primary hidden md:block"></i>
-          <div class="md:pl-20 md:-mt-1">
-            <span class="font-body font-bold text-hunterGreen-dark block">{props.date}</span>
+          <div class="w-full md:pl-20 md:-mt-1">
+            <span class="font-body font-bold text-green-dark block">{props.date}</span>
             <span class="font-header font-bold text-xl text-primary uppercase block pt-2">{props.title}</span>
             <div class="pt-2">
               <span class="font-body text-black block">{props.children}</span>
