@@ -26,7 +26,7 @@ export default function Home() {
         <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png"/>
         <meta name="theme-color" content="#ffffff"/>
       </Head>
-      <header className="py-12 flex flex-col lg:flex-row justify-center items-center w-full bg-white text-gray-800">
+      <header className="container py-12 flex flex-col lg:flex-row justify-center items-center w-full bg-white text-gray-800">
         <div className='w-48 h-48'>
           <img
             src="/images/kuhn logo.svg"
@@ -36,12 +36,12 @@ export default function Home() {
             className = 'rounded-full'
           />
         </div>
-        <div className='text-center md:text-left lg:ml-8 flex flex-col'>
-          <h1 className="text-6xl font-bold tracking-widest">
+        <div className='text-center lg:text-left lg:ml-8 flex flex-col'>
+          <h1 className="text-4xl md:text-6xl font-bold tracking-widest">
             <div className='text-blue'>KUHN.DEV</div>
           </h1>
-          <p className="text-xl tracking-widest text-justify block uppercase md:inline text-lg md:rounded-md text-red justify-last">
-            Effective digital solutions
+          <p className="md:text-xl tracking-widest block uppercase md:inline md:rounded-md text-red">
+            Building effective digital solutions
           </p>
         </div>
       </header>
