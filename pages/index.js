@@ -26,7 +26,7 @@ export default function Home() {
         <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png"/>
         <meta name="theme-color" content="#ffffff"/>
       </Head>
-      <header className="container py-12 flex flex-col lg:flex-row justify-center items-center w-full bg-white text-gray-800">
+      <header className="container py-12 flex flex-col lg:flex-row justify-center items-center w-full text-gray-800">
         <div className='w-48 h-48'>
           <img
             src="/images/kuhn logo.svg"
@@ -46,7 +46,7 @@ export default function Home() {
         </div>
       </header>
       <main className="flex flex-col items-center justify-center w-full flex-1 text-center">
-        <Section title='About me' className='bg-grey-light'>
+        <Section title='About me' className='bg-grey-light-rotated-left'>
           <div className='mb-12 mx-auto w-48 h-48 rounded-full border-8 shadow-xl relative border-blue'>
             <img
               src="/images/fabiokuhn.jpg"
@@ -78,7 +78,7 @@ export default function Home() {
             <p className='p-2'><span class='font-bold'>Team lead:</span> Coaching, Hiring, 1on1s, Performance reviews, Managing a fully remote team</p>
           </div>
         </Section>
-        <Section title='Some of the projects I worked on' className='bg-grey-light'>
+        <Section title='Some of the projects I worked on' className='bg-grey-light-rotated-right'>
           <div className='w-full sm:w-3/4 lg:w-full mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 pt-12'>
             <Project title='Giving Multiplier' img='/images/giving_multiplier.png' href='https://givingmultiplier.org'> Want to give more effectively but don't want to give up your favorite charity? Evidence based research suggests: do both! Divide your donation between your favorite charity and a highly effective charity recommended by experts.</Project>
             <Project title='Algrano' img='/images/algrano.png' href='https://www.algrano.com/en'>Algrano is a Swiss tech startup that changes the global trade of coffee. Using technology, Algrano has set an ambitious goal to revolutionise the centuries old coffee trade industry and make it more transparent. Through the Algrano online platform, coffee growers promote and sell their coffees straight to roasters in Europe</Project>
@@ -169,7 +169,7 @@ export default function Home() {
           </WorkList>
         </Section>
 
-        <Section title='Contact' className='bg-grey-light w-full'>
+        <Section title='Contact' className='bg-grey-light-rotated-left w-full'>
           <p className='pb-3'>
             <span className='p-4 mb-3 block'>Interested in having a conversation?<br/>Send me an email to</span>
             <code className="p-3 font-mono text-lg bg-green-light rounded-md text-black">
@@ -181,7 +181,7 @@ export default function Home() {
         </Section>
       </main>
 
-      <footer className="flex flex-wrap items-center justify-center w-full h-24 border-t px-8">
+      <footer className="flex flex-wrap items-center justify-center w-full h-24 mt-8 px-8">
         <a
           className="hover:underline text-center"
           href="#"

@@ -29,3 +29,31 @@
 p {
   @apply font-body font-light;
 }
+
+body {
+  overflow-x: hidden;
+}
+
+.bg-grey-light-rotated-left {
+  @apply relative;
+}
+.bg-grey-light-rotated-left:after{
+  content: '';
+  @apply bg-grey-light top-0 bottom-0 absolute;
+  z-index: -1;
+  width: 200%;
+  left:  -50%;
+  transform: rotate(1deg);
+}
+
+.bg-grey-light-rotated-right {
+  @apply relative;
+}
+.bg-grey-light-rotated-right:after{
+  content: '';
+  @apply bg-grey-light top-0 bottom-0 absolute;
+  z-index: -1;
+  width: 200%;
+  left:  -50%;
+  transform: rotate(-1deg);
+}
