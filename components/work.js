@@ -21,7 +21,7 @@ export default function Work(props) {
             <span class="font-body font-light font-bold text-green-dark block">{props.date}</span>
             <span class="font-header font-bold text-xl text-primary uppercase block pt-2">{props.title}</span>
             <div class="pt-2">
-              <span class="font-body font-light text-black block">{props.children}</span>
+              <span class="text-left font-body font-light text-black block">{props.children}</span>
             </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
 export default function Section({className, title, subtitle, children}) {
-  const classes = ` w-full py-14 px-16 ${className}`
+  const classes = ` w-full py-14 px-6 md:px-16 ${className}`
   return (
     <section className={classes}>
       <div className='container max-w-5xl'>
