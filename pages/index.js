@@ -91,8 +91,8 @@ export default function Home() {
           <WorkList className='w-full'>
             <Work company='kuhn.dev' title='Full-Stack Engineer & Consultant' date='2021 - now' img='images/kuhn.png'>
               Self-employed and working as a contractor on various projects in the field of <a rel='noopener noreferrer nofollow' target='_blank' href='https://www.effectivealtruism.org/'>Effective Altrusim</a>.
-              Some of my clients
-              <ul className='ml-8 list-disc'>
+              Some clients include
+              <ul className='text-left ml-8 list-disc'>
                 <li><a rel='noopener noreferrer nofollow' target='_blank' href='https://funds.effectivealtruism.org/'>EA Funds</a></li>
                 <li><a rel='noopener noreferrer nofollow' target='_blank' href='https://givingmultiplier.org/'>Giving Multiplier</a></li>
               </ul>
