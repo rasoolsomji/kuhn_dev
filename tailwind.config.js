@@ -8,7 +8,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ['Ubuntu', 'Helvetica', 'Arial', 'sans-serif']
+        sans: ['Ubuntu', 'Helvetica', 'Arial', 'sans-serif'],
+        body: ['Roboto Condensed', 'Helvetica', 'Arial', 'sans-serif']
       },
       colors: {
         blue: {
@@ -27,7 +28,7 @@ module.exports = {
           dark: '#406F68'
         },
         grey: {
-          light: '#E2E3E7',
+          light: '#edeae2',
           DEFAULT: '#7E8F98',
           dark: '#5A6369',
           darkest: '#3E474B'
