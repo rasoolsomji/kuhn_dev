@@ -115,13 +115,22 @@ export default function Home() {
               className="rounded-full"
             />
           </div>
-          <p className="text-lg text-left">
-            Hi, I'm Fabio, a passionate full stack software developer with a
+          <p className="text-lg text-left pb-2">
+            Hi, I'm Fabio, a passionate full-stack software developer with a
             wide range of professional experiences and skills. I've been working
-            in the Software and digital Product industry for more than 15 years.
-            <br />
+            in the software and digital product industry for more than 15 years.
+          </p>
+          <p className="text-lg text-left">
             I'm using my skills and talent to have a bigger impact on the world
-            by working on projects in the area of Effective Altruism.
+            by working on projects in the area of{" "}
+            <a
+              rel="noopener noreferrer nofollow"
+              target="_blank"
+              href="https://www.effectivealtruism.org/"
+            >
+              Effective Altruism
+            </a>
+            .
           </p>
         </Section>
         <Section title="Services">
