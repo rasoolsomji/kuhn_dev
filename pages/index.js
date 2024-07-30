@@ -190,7 +190,7 @@ export default function Home() {
             <h3 className="text-xl pb-1">Coaching</h3>
             <p className="text-xl pb-8">
               You’ve learned the craft but still feel a bit unsure of the
-              practice? Or maybe you hired a new programmer and want him to get
+              practice? Or maybe you hired a new programmer and want them to get
               started on the right foot? I’ll help you get up to speed with
               virtual or in-person pair programming and async code reviews.
             </p>
@@ -423,7 +423,7 @@ export default function Home() {
               img="images/coop.jpg"
             >
               Coop is the second biggest retailer in Switzerland. I started my
-              appreniceship there at age 17 and worked in different fields.
+              apprenticeship there at age 17 and worked in different fields.
               First in first level IT support where I learned communication
               skills, then from building websites with Java up to low-level
               programming for internal transaction processing with ABAP.
